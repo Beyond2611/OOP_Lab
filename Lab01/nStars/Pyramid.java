@@ -9,13 +9,13 @@ public class Pyramid
         int i, j;
         for (i = 0; i < row; i++)
         {
-            for (j = row - i; j > 1; j--)
+            for (j = row * 2 - i; j > 1; j--)
             {
                 System.out.print(" ");
             }
-            for (j = 0; j <= i; j++)
+            for (j = 0; j <= i * 2; j++)
             {
-                System.out.print("* ");
+                System.out.print("*");
             }
             System.out.println();
         }

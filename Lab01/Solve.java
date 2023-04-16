@@ -1,6 +1,4 @@
 package Lab01;
-import javax.swing.JOptionPane;
-import java.lang.Math.*;
 import java.util.Scanner;
 
 import static java.lang.Math.sqrt;
