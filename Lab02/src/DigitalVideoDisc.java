@@ -69,4 +69,10 @@ public class DigitalVideoDisc {
         this.length = length;
         this.cost = cost;
     }
+    static class DVDWrapper {
+        DigitalVideoDisc dvd;
+        DVDWrapper(DigitalVideoDisc dvd){
+            this.dvd = dvd;
+        }
+    }
 }
