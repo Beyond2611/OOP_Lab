@@ -77,6 +77,10 @@ public class DigitalVideoDisc {
         this.cost = cost;
         this.ID = nbDigitalVideoDiscs++;
     }
+    public String toString(){
+        String Desc = String.format(".DVD - %s %s %s %s: %s$", this.getTitle(), this.getCategory(), this.getDirector(), Integer.toString(this.getLength()), Float.toString(this.getCost()));
+        return Desc;
+    }
     static class DVDWrapper {
         DigitalVideoDisc dvd;
         DVDWrapper(DigitalVideoDisc dvd){
