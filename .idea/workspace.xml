@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09e202e-b9ca-430d-84ab-d75c91ea9c20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab02/src/Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab02/src/CartTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab02/src/DigitalVideoDisc$DVDWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab02/src/DigitalVideoDisc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/src/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02/src/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/src/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02/src/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/src/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02/src/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/DigitalVideoDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/DigitalVideoDisc.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,7 @@
       <workItem from="1683858741726" duration="3338000" />
       <workItem from="1683862166394" duration="3566000" />
       <workItem from="1683879889018" duration="70000" />
-      <workItem from="1684131798651" duration="6151000" />
+      <workItem from="1684131798651" duration="7016000" />
     </task>
     <task id="LOCAL-00001" summary="Lab01 Assignments">
       <created>1681455869613</created>
