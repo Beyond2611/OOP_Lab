@@ -13,5 +13,6 @@ public class CartTest {
         cart.addDigitalVideoDisc (dvd3);
 
         cart.printCart();
+        System.out.println("Search:");
     }
 }
