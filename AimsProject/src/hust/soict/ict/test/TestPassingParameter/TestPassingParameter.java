@@ -1,8 +1,6 @@
-import sun.security.util.ArrayUtil;
+package hust.soict.ict.test.TestPassingParameter;
 
-import java.awt.desktop.SystemSleepEvent;
-import java.util.Collection;
-import java.util.Collections;
+import hust.soict.ict.aims.disc.DigitalVideoDisc;
 
 public class TestPassingParameter {
     public static void main(String[] args){

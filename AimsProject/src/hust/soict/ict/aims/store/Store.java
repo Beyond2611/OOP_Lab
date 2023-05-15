@@ -1,3 +1,7 @@
+package hust.soict.ict.aims.store;
+
+import hust.soict.ict.aims.disc.DigitalVideoDisc;
+
 import java.util.Arrays;
 
 public class Store {
@@ -9,7 +13,7 @@ public class Store {
 
     public void removeDisc(DigitalVideoDisc dvd) {
         int it, j;
-        for(it = 0, j = 0; j < itemsInStore.length; ++j)
+        for(it = 0, j = 0; j < numDiscs; ++j)
         {
             if(!(itemsInStore[j] == dvd)){
                 itemsInStore[it] = itemsInStore[j];
@@ -18,6 +22,7 @@ public class Store {
         }
         itemsInStore = Arrays.copyOf(itemsInStore, it);
         System.out.println("Disc deleted");
+        numDiscs--;
     }
 
     public void printStore() {

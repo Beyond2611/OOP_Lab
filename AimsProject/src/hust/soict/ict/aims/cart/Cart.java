@@ -1,3 +1,7 @@
+package hust.soict.ict.aims.cart;
+
+import hust.soict.ict.aims.disc.DigitalVideoDisc;
+
 import java.util.Arrays;
 
 public class Cart {
@@ -14,7 +18,7 @@ public class Cart {
         System.out.println("The disc is added to the cart");
         System.out.println("Number of Disc currently in the cart: " + this.qtyOrdered);
     }
-    public void addDigitalVideoDisc(DigitalVideoDisc [] dvdList){
+    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList){
         if(this.qtyOrdered + dvdList.length >= MAX_NUMBER_ORDERED){
             System.out.println("The numbers of Disc in the list if added will be larger than the max quantity of discs the cart allow, please remove some items");
         }
@@ -37,11 +41,11 @@ public class Cart {
         System.out.println("The discs are added to the cart");
         System.out.println("Number of Disc currently in the cart: " + this.qtyOrdered);
     }
-    /*public void addDigitalVideoDisc(DigitalVideoDisc... Discs){
+    /*public void addDigitalVideoDisc(hust.soict.ict.aims.disc.DigitalVideoDisc... Discs){
         if(this.qtyOrdered + Discs.length > MAX_NUMBER_ORDERED){
             System.out.println("The numbers of Disc in the list if added will be larger than the max quantity of discs the cart allow, please remove some items");
         }
-        for(DigitalVideoDisc item : Discs){
+        for(hust.soict.ict.aims.disc.DigitalVideoDisc item : Discs){
             this.itemOrdered[this.qtyOrdered] = item;
             this.qtyOrdered++;
         }

@@ -1,3 +1,5 @@
+package hust.soict.ict.aims.disc;
+
 public class DigitalVideoDisc {
     private int ID;
     private String title;
@@ -84,9 +86,9 @@ public class DigitalVideoDisc {
     public boolean isMatch(String reqTitle){
         return reqTitle.equalsIgnoreCase(this.getTitle());
     }
-    static class DVDWrapper {
-        DigitalVideoDisc dvd;
-        DVDWrapper(DigitalVideoDisc dvd){
+    public static class DVDWrapper {
+        public DigitalVideoDisc dvd;
+        public DVDWrapper(DigitalVideoDisc dvd){
             this.dvd = dvd;
         }
     }

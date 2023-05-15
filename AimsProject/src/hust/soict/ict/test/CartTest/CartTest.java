@@ -1,3 +1,8 @@
+package hust.soict.ict.test.CartTest;
+
+import hust.soict.ict.aims.cart.Cart;
+import hust.soict.ict.aims.disc.DigitalVideoDisc;
+
 import java.util.Scanner;
 
 public class CartTest {
