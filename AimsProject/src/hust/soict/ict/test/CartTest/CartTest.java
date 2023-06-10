@@ -2,7 +2,10 @@ package hust.soict.ict.test.CartTest;
 
 import hust.soict.ict.aims.cart.Cart;
 import hust.soict.ict.aims.disc.DigitalVideoDisc;
+import hust.soict.ict.aims.media.book;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class CartTest {
@@ -19,7 +22,15 @@ public class CartTest {
         DigitalVideoDisc dvd3 = new DigitalVideoDisc ("Aladin",
                 "Animation", 18.99f);
         cart.addDigitalVideoDisc (dvd3);
-
+        List<String> authorList = new ArrayList<String>();
+        authorList.add("Mike");
+        authorList.add("Mike2");
+        book book1 = new book(1, "Book1", "Science", 20.99f, authorList);
+        //System.out.println(book1.getAuthors());
+        book1.addAuthor("Big Mike");
+        //System.out.println(book1.getAuthors());
+        book1.removeAuthor("Mike");
+        //System.out.println(book1.getAuthors());
         boolean isExit = false;
         while(isExit == false) {
             cart.printCart();
