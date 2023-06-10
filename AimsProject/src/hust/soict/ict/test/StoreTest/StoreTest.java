@@ -12,9 +12,6 @@ public class StoreTest {
         DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars",
                 "Science Fiction", "George Lucas", 87, 24.95f);
         curStore.addDisc (dvd2);
-        DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin",
-                "Animation", 18.99f);
-        curStore.addDisc (dvd3);
 
         curStore.printStore();
         curStore.removeDisc(dvd2);

@@ -7,7 +7,9 @@ public class book extends Media {
     private List<String> authors = new ArrayList<String>();
     private static int nbBooks = 0;
 
-    public book(){}
+    public book(){
+        super();
+    }
 
     public List<String> getAuthors() {
         return authors;
@@ -37,10 +39,7 @@ public class book extends Media {
     }
 
     public book(String title, String category, float cost, List<String> authors) {
-        this.id = nbBooks++;
-        this.title = title;
-        this.category = category;
-        this.cost = cost;
+        super(nbBooks++, title, category, cost);
         this.authors = authors;
     }
 }
