@@ -5,90 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09e202e-b9ca-430d-84ab-d75c91ea9c20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Other Projects/20210263-TranNamDuong-BC_TH_Lab1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/AddingMatrix/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/AddingMatrix/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/AddingMatrix/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/AddingMatrix/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/AddingMatrix/AddingMatrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/AddingMatrix/AddingMatrix.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/HelloWorld2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/HelloWorldPopup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/InputDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/JavaBasic/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/JavaBasic/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/JavaBasic/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/JavaBasic/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/JavaBasic/ChoosingOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/JavaBasic/InputFromKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/JavaBasic/JavaBasic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/ShowTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/Solve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/SortingArray/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/SortingArray/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/SortingArray/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/SortingArray/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/SortingArray/SortingArray.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/SortingArray/SortingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/daysOfMonth/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/daysOfMonth/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/daysOfMonth/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/daysOfMonth/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/daysOfMonth/daysOfMonth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/daysOfMonth/daysOfMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/nStars/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/nStars/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/nStars/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/nStars/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/nStars/Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other Projects/nStars/nStars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab02/AimsProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/20210263-TranNamDuong-BC_TH_Lab1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/AddingMatrix/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/AddingMatrix/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/AddingMatrix/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/AddingMatrix/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/AddingMatrix/AddingMatrices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/AddingMatrix/AddingMatrix.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/Calc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/HelloWorld2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/HelloWorldPopup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/InputDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/JavaBasic/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/JavaBasic/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/JavaBasic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/JavaBasic/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/JavaBasic/ChoosingOption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/JavaBasic/InputFromKeyboard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/JavaBasic/JavaBasic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/ShowTwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/Solve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/SortingArray/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/SortingArray/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/SortingArray/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/SortingArray/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/SortingArray/SortingArray.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/SortingArray/SortingArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/daysOfMonth/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/daysOfMonth/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/daysOfMonth/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/daysOfMonth/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/daysOfMonth/daysOfMonth.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/daysOfMonth/daysOfMonth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/nStars/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/nStars/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/nStars/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/nStars/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/nStars/Pyramid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/nStars/nStars.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/Aims.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/DigitalVideoDisc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/UCDiagram.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "/home/beyond/Classes/OOP/Other Projects",
+    "last_opened_file_path": "D:/IdeaProjects/OOP_Lab/AimsProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -139,9 +60,30 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.soict.ict.test.CartTest.CartTest" />
+      <module name="AimsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hust.soict.ict.test.CartTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CartTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -163,6 +105,7 @@
       <workItem from="1684131798651" duration="7304000" />
       <workItem from="1684139151510" duration="411000" />
       <workItem from="1684141238344" duration="64000" />
+      <workItem from="1686366081132" duration="2037000" />
     </task>
     <task id="LOCAL-00001" summary="Lab01 Assignments">
       <created>1681455869613</created>
