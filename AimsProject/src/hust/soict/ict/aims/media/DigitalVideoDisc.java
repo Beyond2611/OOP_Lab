@@ -1,27 +1,9 @@
-package hust.soict.ict.aims.disc;
+package hust.soict.ict.aims.media;
 
-public class DigitalVideoDisc {
-    private int ID;
-    private String title;
-    private String category;
+public class DigitalVideoDisc extends Media{
     private String director;
     private int length;
-    private float cost;
     private static int nbDigitalVideoDiscs = 0;
-    public int getID(){
-        return this.ID;
-    }
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
-    public String getTitle() {
-        return title;
-    }
 
     public void setTitle(String title) {
         this.title = title;
@@ -43,24 +25,16 @@ public class DigitalVideoDisc {
         this.length = length;
     }
 
-    public float getCost() {
-        return cost;
-    }
-
-    public void setCost(float cost) {
-        this.cost = cost;
-    }
-
     public DigitalVideoDisc(String title) {
         this.title = title;
-        this.ID = nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs++;
     }
 
     public DigitalVideoDisc(String category, String title, float cost) {
         this.title = title;
         this.category = category;
         this.cost = cost;
-        this.ID = nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs++;
     }
 
     public DigitalVideoDisc(String director, String category, String title, float cost) {
@@ -68,7 +42,7 @@ public class DigitalVideoDisc {
         this.category = category;
         this.director = director;
         this.cost = cost;
-        this.ID = nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs++;
     }
 
     public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
@@ -77,7 +51,7 @@ public class DigitalVideoDisc {
         this.director = director;
         this.length = length;
         this.cost = cost;
-        this.ID = nbDigitalVideoDiscs++;
+        this.id = nbDigitalVideoDiscs++;
     }
     public String toString(){
         String Desc = String.format(".DVD - %s - %s - %s - %s: %s$", this.getTitle(), this.getCategory(), this.getDirector(), Integer.toString(this.getLength()), Float.toString(this.getCost()));
