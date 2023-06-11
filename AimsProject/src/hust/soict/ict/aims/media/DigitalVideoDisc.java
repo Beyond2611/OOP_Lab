@@ -16,12 +16,10 @@ public class DigitalVideoDisc extends Disc implements Playable{
     public DigitalVideoDisc(String title){
         super(nbDigitalVideoDiscs++, title);
     }
+    @Override
     public String toString(){
         String Desc = String.format(".DVD - %s - %s - %s - %s: %s$", this.getTitle(), this.getCategory(), this.getDirector(), Integer.toString(this.getLength()), Float.toString(this.getCost()));
         return Desc;
-    }
-    public boolean isMatch(String reqTitle){
-        return reqTitle.equalsIgnoreCase(this.getTitle());
     }
     public static class DVDWrapper {
         public DigitalVideoDisc dvd;

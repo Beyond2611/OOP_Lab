@@ -1,45 +1,40 @@
 package hust.soict.ict.aims.cart;
 
-import hust.soict.ict.aims.media.DigitalVideoDisc;
+import hust.soict.ict.aims.media.Media;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Cart {
     public static final int MAX_NUMBER_ORDERED = 20;
-    private DigitalVideoDisc itemOrdered[] = new DigitalVideoDisc[MAX_NUMBER_ORDERED];
-    public int qtyOrdered = 0;
-    public void addDigitalVideoDisc(DigitalVideoDisc Disc){
-        if(this.qtyOrdered == MAX_NUMBER_ORDERED) {
+    private ArrayList<Media> itemOrdered = new ArrayList<Media>();
+
+    public void addMedia(Media item){
+        if(this.itemOrdered.size() == MAX_NUMBER_ORDERED) {
             System.out.println("The cart is Almost Full");
             return;
         }
-        this.itemOrdered[this.qtyOrdered] = Disc;
-        this.qtyOrdered++;
-        System.out.println("The disc is added to the cart");
-        System.out.println("Number of Disc currently in the cart: " + this.qtyOrdered);
+        this.itemOrdered.add(item);
+        System.out.println("The Media item is added to the cart");
+        System.out.println("Number of Disc currently in the cart: " + this.itemOrdered.size());
     }
-    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList){
-        if(this.qtyOrdered + dvdList.length >= MAX_NUMBER_ORDERED){
+    public void addMedia(Media[] dvdList){
+        if(this.itemOrdered.size() + dvdList.length >= MAX_NUMBER_ORDERED){
             System.out.println("The numbers of Disc in the list if added will be larger than the max quantity of discs the cart allow, please remove some items");
         }
-        for(DigitalVideoDisc item : dvdList){
-            this.itemOrdered[this.qtyOrdered] = item;
-            this.qtyOrdered++;
-        }
-        System.out.println("The disc(s) are added to the cart");
-        System.out.println("Number of Discs currently in the cart: " + this.qtyOrdered);
+        this.itemOrdered.addAll(Arrays.asList(dvdList));
+        System.out.println("The Media item(s) are added to the cart");
+        System.out.println("Number of Discs currently in the cart: " + this.itemOrdered.size());
     }
-    public void addDigitalVideoDisc(DigitalVideoDisc Disc1, DigitalVideoDisc Disc2){
-        if(this.qtyOrdered + 2 == MAX_NUMBER_ORDERED) {
+    public void addMedia(Media Disc1, Media Disc2){
+        if(this.itemOrdered.size() + 2 == MAX_NUMBER_ORDERED) {
             System.out.println("The cart is Almost Full");
             return;
         }
-        this.itemOrdered[this.qtyOrdered] = Disc1;
-        this.qtyOrdered++;
-        this.itemOrdered[this.qtyOrdered] = Disc2;
-        this.qtyOrdered++;
-        System.out.println("The discs are added to the cart");
-        System.out.println("Number of Disc currently in the cart: " + this.qtyOrdered);
+        this.itemOrdered.add(Disc1);
+        this.itemOrdered.add(Disc2);
+        System.out.println("The items are added to the cart");
+        System.out.println("Number of Disc currently in the cart: " + this.itemOrdered.size());
     }
     /*public void addDigitalVideoDisc(hust.soict.ict.aims.media.DigitalVideoDisc... Discs){
         if(this.qtyOrdered + Discs.length > MAX_NUMBER_ORDERED){
@@ -52,31 +47,23 @@ public class Cart {
         System.out.println("The disc(s) are added to the cart");
         System.out.println("Number of Discs currently in the cart: " + this.qtyOrdered);
     }*/
-    public void removeDigitalVideoDisc(DigitalVideoDisc Disc){
-        int it, j;
-        for(it = 0, j = 0; j < this.itemOrdered.length; ++j)
-        {
-            if(!(this.itemOrdered[j] == Disc)){
-                this.itemOrdered[it] = this.itemOrdered[j];
-                it++;
-            }
-        }
-        this.itemOrdered = Arrays.copyOf(this.itemOrdered, it);
+    public void removeMedia(Media Disc){
+        int discID = this.itemOrdered.indexOf(Disc);
+        this.itemOrdered.remove(discID);
         System.out.println("Disc deleted");
-        this.qtyOrdered--;
     }
     public float totalCost(){
         float TotalCost = 0.0f;
-        for(int i = 0; i < this.qtyOrdered; ++i){
-            TotalCost += this.itemOrdered[i].getCost();
+        for(Media item : this.itemOrdered){
+            TotalCost += item.getCost();
         }
         return TotalCost;
     }
     public void searchByID(int reqID){
         int it = 0;
-        for(int i = 0; i < this.qtyOrdered; ++i){
-            if(this.itemOrdered[i].getID() == reqID){
-                System.out.println(Integer.toString(it) + this.itemOrdered[i].toString());
+        for(Media item : this.itemOrdered){
+            if(item.getID() == reqID){
+                System.out.println(Integer.toString(it) + item.toString());
                 it++;
             }
         }
@@ -86,9 +73,9 @@ public class Cart {
 
     public void searchByTitle(String reqTitle){
         int it = 0;
-        for(int i = 0; i < this.qtyOrdered; ++i){
-            if(this.itemOrdered[i].isMatch(reqTitle)){
-                System.out.println(Integer.toString(it) + this.itemOrdered[i].toString());
+        for(Media item : this.itemOrdered){
+            if(item.isMatch(reqTitle)){
+                System.out.println(Integer.toString(it) + item.toString());
                 it++;
             }
         }
@@ -98,9 +85,10 @@ public class Cart {
     public void printCart() {
         System.out.println("**********************CART**********************");
         System.out.println("Ordered Items");
-        for (int i = 0; i < this.qtyOrdered; ++ i){
-            System.out.print(i);
-            System.out.println(this.itemOrdered[i].toString());
+        int i = 0;
+        for (Media item : this.itemOrdered){
+            System.out.print(i++);
+            System.out.println(item.toString());
         }
         System.out.println("Total cost: " + this.totalCost() + "$");
         System.out.println("************************************************");

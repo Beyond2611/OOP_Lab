@@ -10,21 +10,21 @@ public class Aims {
         //Create new dvd objects and add them to the cart
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King",
                 "Animation", "Roger Allers", 87, 19.95f);
-        anOrder.addDigitalVideoDisc (dvd1);
+        anOrder.addMedia (dvd1);
             DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars",
                     "Science Fiction", "George Lucas", 87, 24.95f);
-        anOrder.addDigitalVideoDisc (dvd2);
+        anOrder.addMedia (dvd2);
         DigitalVideoDisc[] List = {new DigitalVideoDisc("Anything", "Comedy", "Ceres Fauna", 90, 200f), new DigitalVideoDisc("Anything2", "Comedy", "Ceres Fauna", 90, 200f)};
         //print total cost of the items in the cart
         System.out.println("Total Cost is: ");
         System.out.println(anOrder.totalCost());
         System.out.println("Disc 1 id is " + Integer.toString(dvd1.getID()));
-        anOrder.addDigitalVideoDisc(List);
+        anOrder.addMedia(List);
         System.out.println(anOrder.totalCost());
         //Remove and re calculate the total
-        anOrder.removeDigitalVideoDisc(dvd2);
+        anOrder.removeMedia(dvd2);
         System.out.println(anOrder.totalCost());
-        anOrder.addDigitalVideoDisc(dvd2, dvd1);
+        anOrder.addMedia(dvd2, dvd1);
         System.out.println(anOrder.totalCost());
 
     }

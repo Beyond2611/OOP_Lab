@@ -42,4 +42,10 @@ public class book extends Media {
         super(nbBooks++, title, category, cost);
         this.authors = authors;
     }
+    @Override
+    public String toString(){
+        String authors = String.join(", ", this.getAuthors());
+        String Desc = String.format(".DVD - %s - %s - %s - %s: %s$", this.getTitle(), this.getCategory(), authors, Float.toString(this.getCost()));
+        return Desc;
+    }
 }

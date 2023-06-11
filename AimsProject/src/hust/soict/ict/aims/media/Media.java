@@ -52,4 +52,8 @@ public abstract class Media {
     }
     public Media(){
     }
+
+    public boolean isMatch(String reqTitle){
+        return reqTitle.equalsIgnoreCase(this.getTitle());
+    }
 }
