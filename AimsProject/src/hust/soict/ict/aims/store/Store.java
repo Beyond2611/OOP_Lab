@@ -1,35 +1,36 @@
 package hust.soict.ict.aims.store;
 
-import hust.soict.ict.aims.media.DigitalVideoDisc;
+import hust.soict.ict.aims.media.Media;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Store {
-    private static DigitalVideoDisc itemsInStore[] = new DigitalVideoDisc[1001];
-    public static int numDiscs = 0;
-    public void addDisc(DigitalVideoDisc dvd) {
-        itemsInStore[numDiscs++] = dvd;
+    private static ArrayList<Media> itemsInStore = new ArrayList<Media>();
+    public void addMedia(Media item) {
+        if(itemsInStore.contains(item))
+        {
+            System.out.println("Item is already in store!");
+            return;
+        }
+        itemsInStore.add(item);
     }
 
-    public void removeDisc(DigitalVideoDisc dvd) {
-        int it, j;
-        for(it = 0, j = 0; j < numDiscs; ++j)
-        {
-            if(!(itemsInStore[j] == dvd)){
-                itemsInStore[it] = itemsInStore[j];
-                it++;
-            }
+    public void removeMedia(Media item) {
+        if(!itemsInStore.contains(item)){
+            System.out.println("This item isnt found!");
+            return;
         }
-        itemsInStore = Arrays.copyOf(itemsInStore, it);
+        int itemID = itemsInStore.indexOf(item);
+        itemsInStore.remove(itemID);
         System.out.println("Disc deleted");
-        numDiscs--;
     }
 
     public void printStore() {
-        if (numDiscs == 0){
+        if (itemsInStore.isEmpty()){
             System.out.println("There isn't any items in the store");
         }
-        for (int i = 0; i < numDiscs; ++ i)
-            System.out.println(itemsInStore[i].toString());
+        for (Media item : itemsInStore)
+            System.out.println(item.toString());
     }
 }

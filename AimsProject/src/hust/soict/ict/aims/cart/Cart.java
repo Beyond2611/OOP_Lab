@@ -14,6 +14,11 @@ public class Cart {
             System.out.println("The cart is Almost Full");
             return;
         }
+        if(this.itemOrdered.contains(item))
+        {
+            System.out.println("Item is already in the cart!");
+            return;
+        }
         this.itemOrdered.add(item);
         System.out.println("The Media item is added to the cart");
         System.out.println("Number of Disc currently in the cart: " + this.itemOrdered.size());
@@ -22,6 +27,13 @@ public class Cart {
         if(this.itemOrdered.size() + dvdList.length >= MAX_NUMBER_ORDERED){
             System.out.println("The numbers of Disc in the list if added will be larger than the max quantity of discs the cart allow, please remove some items");
         }
+        for(Media item : dvdList){
+            if(this.itemOrdered.contains(item))
+            {
+                System.out.println("Item is already in the cart!");
+                return;
+            }
+        }
         this.itemOrdered.addAll(Arrays.asList(dvdList));
         System.out.println("The Media item(s) are added to the cart");
         System.out.println("Number of Discs currently in the cart: " + this.itemOrdered.size());
@@ -29,6 +41,11 @@ public class Cart {
     public void addMedia(Media Disc1, Media Disc2){
         if(this.itemOrdered.size() + 2 == MAX_NUMBER_ORDERED) {
             System.out.println("The cart is Almost Full");
+            return;
+        }
+        if(this.itemOrdered.contains(Disc1) || this.itemOrdered.contains(Disc2))
+        {
+            System.out.println("Item is already in the cart!");
             return;
         }
         this.itemOrdered.add(Disc1);
@@ -48,6 +65,10 @@ public class Cart {
         System.out.println("Number of Discs currently in the cart: " + this.qtyOrdered);
     }*/
     public void removeMedia(Media Disc){
+        if(!this.itemOrdered.contains(Disc)){
+            System.out.println("This item isnt found!");
+            return;
+        }
         int discID = this.itemOrdered.indexOf(Disc);
         this.itemOrdered.remove(discID);
         System.out.println("Disc deleted");
