@@ -1,4 +1,4 @@
-package hust.soict.ict.test;
+package hust.soict.ict.test.TrackTest;
 
 import hust.soict.ict.aims.media.CompactDisc;
 import hust.soict.ict.aims.media.Track;

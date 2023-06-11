@@ -18,7 +18,7 @@ public class DigitalVideoDisc extends Disc implements Playable{
     }
     @Override
     public String toString(){
-        String Desc = String.format(".DVD - %s - %s - %s - %s: %s$", this.getTitle(), this.getCategory(), this.getDirector(), Integer.toString(this.getLength()), Float.toString(this.getCost()));
+        String Desc = String.format(". DVD - Title: %s - Category: %s - Director: %s - Length: %s - Price: %s$", this.getTitle(), this.getCategory(), this.getDirector(), Integer.toString(this.getLength()), Float.toString(this.getCost()));
         return Desc;
     }
     public static class DVDWrapper {

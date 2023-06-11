@@ -1,0 +1,55 @@
+1. Which classes are aggregates of other classes?
+- CompactDisc, and DigitalVideoDisc aggregates from Disc. Disc and Book aggregates from Media, CompactDisc also aggregates from Track.
+2.When overriding the equals() method of the Object class, you will have to cast the Object parameter obj to the type of
+  Object that you are dealing with. For example, in the Media class, you must cast the Object obj to a Media, and then check the
+  equality of the two objects’ attributes as the above requirements (i.e. title for Media; title and length for Track). If the
+  passing object is not an instance of Media, what happens?
+- If the passing object isnt an instance of Media, we cant cast the object to the Media class, therefore we get a compiling error saying object cant be casted to Media.
+3.- Create an ArrayList of Media, then add some media (CD, DVD or Book) into the list.
+  - Iterate through the list and print out the information of the media by using toString() method. Observe
+  what happens and explain in detail.
+  Refer to answer.png for examples.
+ - The toString() method is inherited from Media to the 3 classes but in the code, each class can override or rewrite the toString(), this is a prime example of Polymorphism as the three toString() method give out different results depends on the object.
+ 4. What class should implement the Comparable interface?
+ - As the comparable interface imposes a total ordering on the objects of each class that implements it, the class that should implement the comparable interface should have nature ordering, in this case the Media class.
+ 5. In those classes, how should you implement the compareTo() method be to reflect the ordering that we want?
+ - We impliment compareTo() as a method that pass another object to compare with the current object, the example of this should be
+        @Override
+        public int compareTo(Media item)
+        {
+            if(this.title.equals(item.getTitle()))
+            {
+                if(this.cost > item.getCost())
+                    return 1;
+                if(this.cost < item.getCost())
+                    return -1;
+                return 0;
+            }
+            return this.title.compareTo(item.getTitle());
+        }
+ - This is a compareTo for sorting using title then cost, you can use Collections.sort() and pass the Media list or array to sort.
+ 6. Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this Comparable interface approach?
+ - Because of the internal comparison based of using the Comparable interface, we cant have multiple sorting rules taken place in one Class that implements it
+ 7.Suppose the DVDs has a different ordering rule from the other media types, that is by title, then decreasing length, then
+   cost. How would you modify your code to allow this?
+ - Let's look back at the previous example where we sort all Media object using title and cost.Applying the rules of Polymorphism,  we can override the compareTo() method in DigitalVideoDisc so that when Collections.sort() is called in a List or Array of DigitalVideoDisc, a different compareTo() will be called, results in different sorting rule
+ EX:
+    @Override
+            public int compareTo(DigitalVideoDisc item)
+            {
+                if(this.title.equals(item.getTitle()))
+                {
+                    if(this.length == item.getLength())
+                    {
+                        if(this.cost > item.getCost())
+                            return 1;
+                        if(this.cost < item.getCost())
+                            return -1;
+                        return 0;
+                    }
+                    if(this.length() > item.getLength()
+                        return -1;
+                    return 1;
+                }
+                return this.title.compareTo(item.title);
+            }
