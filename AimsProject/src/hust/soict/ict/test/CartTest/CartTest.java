@@ -19,9 +19,6 @@ public class CartTest {
         DigitalVideoDisc dvd2 = new DigitalVideoDisc ("Star Wars",
                 "Science Fiction", "George Lucas", 87, 24.95f);
         cart.addDigitalVideoDisc (dvd2);
-        DigitalVideoDisc dvd3 = new DigitalVideoDisc ("Aladin",
-                "Animation", 18.99f);
-        cart.addDigitalVideoDisc (dvd3);
         List<String> authorList = new ArrayList<String>();
         authorList.add("Mike");
         authorList.add("Mike2");
