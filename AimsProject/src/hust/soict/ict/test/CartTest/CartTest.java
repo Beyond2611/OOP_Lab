@@ -2,6 +2,7 @@ package hust.soict.ict.test.CartTest;
 
 import hust.soict.ict.aims.cart.Cart;
 import hust.soict.ict.aims.media.DigitalVideoDisc;
+import hust.soict.ict.aims.media.Media;
 import hust.soict.ict.aims.media.book;
 
 import java.util.ArrayList;
@@ -46,7 +47,10 @@ public class CartTest {
             else{
                 System.out.println("Input DVD Title:");
                 String dvdTitle = in.nextLine();
-                cart.searchByTitle(dvdTitle);
+                Media curMedia = cart.searchByTitle(dvdTitle);
+                if(curMedia.getID() != -1){
+                    System.out.println(curMedia.toString());
+                }
             }
             isExit = true;
         }

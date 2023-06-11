@@ -24,4 +24,9 @@ public class Disc extends Media{
         this.length = 0;
         this.director = null;
     }
+    public Disc(){
+        super();
+        this.length = 0;
+        this.director = null;
+    }
 }

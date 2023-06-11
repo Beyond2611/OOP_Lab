@@ -1,10 +1,17 @@
 package hust.soict.ict.aims.media;
 
+import hust.soict.ict.aims.Comparator.MediaComparatorByCostTitle;
+import hust.soict.ict.aims.Comparator.MediaComparatorByTitleCost;
+
+import java.util.Comparator;
+
 public abstract class Media {
     protected int id;
     protected String title;
     protected String category;
     protected float cost;
+    public static final Comparator<Media> COMPARE_BY_TITLE_COST = new MediaComparatorByTitleCost();
+    public static final Comparator<Media> COMPARE_BY_COST_TITLE = new MediaComparatorByCostTitle();
 
     public int getID() {
         return id;
@@ -51,6 +58,10 @@ public abstract class Media {
         this.cost = 0.00f;
     }
     public Media(){
+        this.id = -1;
+        this.title = null;
+        this.category = null;
+        this.cost = 0.00f;
     }
 
     public boolean isMatch(String reqTitle){

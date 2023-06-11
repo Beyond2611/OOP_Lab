@@ -45,7 +45,7 @@ public class book extends Media {
     @Override
     public String toString(){
         String authors = String.join(", ", this.getAuthors());
-        String Desc = String.format(".DVD - %s - %s - %s - %s: %s$", this.getTitle(), this.getCategory(), authors, Float.toString(this.getCost()));
+        String Desc = String.format(". Book - Title: %s - Category: %s - Authors: %s - Price: %s$", this.getTitle(), this.getCategory(), authors, Float.toString(this.getCost()));
         return Desc;
     }
 }
