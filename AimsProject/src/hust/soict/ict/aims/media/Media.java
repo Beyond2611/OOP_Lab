@@ -56,4 +56,10 @@ public abstract class Media {
     public boolean isMatch(String reqTitle){
         return reqTitle.equalsIgnoreCase(this.getTitle());
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        Media tempObj = (Media) obj;
+        return this.title.equals(tempObj.title);
+    }
 }
