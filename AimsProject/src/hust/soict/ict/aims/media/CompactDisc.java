@@ -3,7 +3,7 @@ package hust.soict.ict.aims.media;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CompactDisc extends Disc{
+public class CompactDisc extends Disc implements Playable{
     private String artist;
     private List<Track>  tracks = new ArrayList<>();
     private static int nbCompDiscs = 0;
@@ -45,5 +45,12 @@ public class CompactDisc extends Disc{
             curLength += temp.getLength();
         }
         return curLength;
+    }
+
+    @Override
+    public void play() {
+        for(Track trackIT : this.tracks){
+            trackIT.play();
+        }
     }
 }
