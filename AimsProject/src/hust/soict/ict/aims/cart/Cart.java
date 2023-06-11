@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class Cart {
     public static final int MAX_NUMBER_ORDERED = 20;
-    private ArrayList<Media> itemOrdered = new ArrayList<Media>();
+    private final ArrayList<Media> itemOrdered = new ArrayList<Media>();
 
     public void addMedia(Media item){
         if(this.itemOrdered.size() == MAX_NUMBER_ORDERED) {
@@ -69,8 +69,7 @@ public class Cart {
             System.out.println("This item isnt found!");
             return;
         }
-        int discID = this.itemOrdered.indexOf(Disc);
-        this.itemOrdered.remove(discID);
+        this.itemOrdered.remove(Disc);
         System.out.println("Disc deleted");
     }
     public float totalCost(){
@@ -84,19 +83,19 @@ public class Cart {
         int it = 0;
         for(Media item : this.itemOrdered){
             if(item.getID() == reqID){
-                System.out.println(Integer.toString(it) + item.toString());
+                System.out.println(Integer.toString(it) + item);
                 it++;
             }
         }
         if(it == 0)
-            System.out.println("No DVD with id " + Integer.toString(reqID) + " found.");
+            System.out.println("No DVD with id " + reqID + " found.");
     }
 
     public void searchByTitle(String reqTitle){
         int it = 0;
         for(Media item : this.itemOrdered){
             if(item.isMatch(reqTitle)){
-                System.out.println(Integer.toString(it) + item.toString());
+                System.out.println(Integer.toString(it) + item);
                 it++;
             }
         }
