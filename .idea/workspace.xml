@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a09e202e-b9ca-430d-84ab-d75c91ea9c20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/aims/Aims.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/StoreTest/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/StoreTest/StoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <recent name="hust.soict.ict.aims.media" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CartTest">
+  <component name="RunManager" selected="Application.StoreTest">
     <configuration name="Aims" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hust.soict.ict.aims.aims.Aims" />
       <module name="AimsProject" />
@@ -99,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.soict.ict.test.StoreTest.StoreTest" />
+      <module name="AimsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hust.soict.ict.test.StoreTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hust.soict.ict.test.TrackTest" />
       <module name="AimsProject" />
@@ -114,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StoreTest" />
         <item itemvalue="Application.CartTest" />
         <item itemvalue="Application.TrackTest" />
         <item itemvalue="Application.Aims" />
