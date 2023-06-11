@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09e202e-b9ca-430d-84ab-d75c91ea9c20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/CompactDisc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Disc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Track.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/TrackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/CompactDisc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/StoreTest/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/StoreTest/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Playable.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Playable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Track.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +44,26 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/OOP_Lab/AimsProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "D:/IdeaProjects/OOP_Lab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hust.soict.ict.aims.media" />
@@ -145,6 +139,7 @@
       <workItem from="1684139151510" duration="411000" />
       <workItem from="1684141238344" duration="64000" />
       <workItem from="1686366081132" duration="2037000" />
+      <workItem from="1686448009189" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="Lab01 Assignments">
       <created>1681455869613</created>

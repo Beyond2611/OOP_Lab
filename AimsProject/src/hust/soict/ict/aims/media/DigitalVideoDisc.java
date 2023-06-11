@@ -1,6 +1,6 @@
 package hust.soict.ict.aims.media;
 
-public class DigitalVideoDisc extends Disc{
+public class DigitalVideoDisc extends Disc implements Playable{
     private static int nbDigitalVideoDiscs = 0;
     public void setDirector(String director) {
         super.director = director;
@@ -28,5 +28,10 @@ public class DigitalVideoDisc extends Disc{
         public DVDWrapper(DigitalVideoDisc dvd){
             this.dvd = dvd;
         }
+    }
+    @Override
+    public void play(){
+        System.out.println("Playing DVD:" + this.getTitle());
+        System.out.println("DVD Length:" + this.getLength());
     }
 }
