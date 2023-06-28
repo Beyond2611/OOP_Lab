@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="768.0" prefWidth="1024.0"
+            xmlns="http://javafx.com/javafx/20.0.1">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Options">
+                    <items>
+                        <Menu mnemonicParsing="false" text=" Update Store">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#showAddBook" text="Add Book"/>
+                                <MenuItem mnemonicParsing="false" onAction="#showAddCD" text="Add CD"/>
+                                <MenuItem mnemonicParsing="false" onAction="#showAddDVD" text="Add DVD"/>
+                            </items>
+                        </Menu>
+                        <MenuItem mnemonicParsing="false" onAction="#showStore" text="View Store"/>
+                        <MenuItem mnemonicParsing="false" onAction="#showCart" text="View Cart"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <VBox BorderPane.alignment="CENTER">
+            <children>
+                <Label text="Add Compact Disc" textFill="AQUA">
+                    <font>
+                        <Font size="50.0"/>
+                    </font>
+                </Label>
+                <VBox prefHeight="0.0" prefWidth="1024.0">
+                    <children>
+                        <Label text="Enter title">
+                            <VBox.margin>
+                                <Insets bottom="10.0"/>
+                            </VBox.margin>
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                        </Label>
+                        <TextField fx:id="titleTf" prefWidth="600.0">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </VBox>
+                <VBox prefHeight="0.0" prefWidth="1024.0">
+                    <children>
+                        <Label text="Enter category">
+                            <VBox.margin>
+                                <Insets bottom="10.0"/>
+                            </VBox.margin>
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                        </Label>
+                        <TextField fx:id="categoryTf" prefWidth="600.0">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </VBox>
+                <VBox prefHeight="0.0" prefWidth="1024.0">
+                    <children>
+                        <Label text="Enter cost">
+                            <VBox.margin>
+                                <Insets bottom="10.0"/>
+                            </VBox.margin>
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                        </Label>
+                        <TextField fx:id="costTf" prefWidth="600.0">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </VBox>
+                <VBox prefHeight="0.0" prefWidth="1024.0">
+                    <children>
+                        <Label text="Enter director">
+                            <VBox.margin>
+                                <Insets bottom="10.0"/>
+                            </VBox.margin>
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                        </Label>
+                        <TextField fx:id="directorTf" prefWidth="600.0">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </VBox>
+                <VBox prefHeight="0.0" prefWidth="1024.0">
+                    <children>
+                        <Label text="Enter length">
+                            <VBox.margin>
+                                <Insets bottom="10.0"/>
+                            </VBox.margin>
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                        </Label>
+                        <TextField fx:id="lengthTf" prefWidth="600.0">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </VBox>
+                <VBox prefHeight="0.0" prefWidth="1024.0">
+                    <children>
+                        <Label text="Enter artist">
+                            <VBox.margin>
+                                <Insets bottom="10.0"/>
+                            </VBox.margin>
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                        </Label>
+                        <TextField fx:id="artistTf" prefWidth="600.0">
+                            <font>
+                                <Font size="16.0"/>
+                            </font>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </VBox>
+                <VBox>
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#handleAddBtn" text="Add">
+                            <font>
+                                <Font size="18.0"/>
+                            </font>
+                            <VBox.margin>
+                                <Insets top="20.0"/>
+                            </VBox.margin>
+                        </Button>
+                    </children>
+                    <padding>
+                        <Insets left="10.0"/>
+                    </padding>
+                </VBox>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

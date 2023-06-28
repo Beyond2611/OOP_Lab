@@ -5,22 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a09e202e-b9ca-430d-84ab-d75c91ea9c20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AimsProject/answer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/answer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/Comparator/MediaComparatorByCostTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/Comparator/MediaComparatorByTitleCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/PolyTest/PolyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/exception/LimitExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/exception/PlayerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/MediaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/StoreScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/controller/AddBookToStoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/controller/AddCompactDiscToStoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/controller/AddDigitalVideoDiscToStoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/controller/CartScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/controller/MediaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/controller/StoreScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/view/addBookToStore.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/view/addCompactDiscToStore.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/view/addDigitalVideoDiscToStore.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/view/cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/view/layout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/view/media.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/screen/view/store.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProjects/src/main/java/hust/soict/globalict/javafx/Painter.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProjects/src/main/java/hust/soict/globalict/javafx/Painter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProjects/src/main/java/hust/soict/globalict/javafx/PainterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProjects/src/main/java/hust/soict/globalict/swing/AWTAccumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProjects/src/main/java/hust/soict/globalict/swing/NumberGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUIProjects/src/main/java/hust/soict/globalict/swing/SwingAccumulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/aims/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Disc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/TrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/TrackTest/TrackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/Comparator/MediaComparatorByCostTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/Comparator/MediaComparatorByCostTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/Comparator/MediaComparatorByTitleCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/Comparator/MediaComparatorByTitleCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/media/CompactDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/media/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/media/Disc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/media/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Playable.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/media/Playable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/media/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/media/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/media/book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/CartTest/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/test/CartTest/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/PolyTest/PolyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/test/PolyTest/PolyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/StoreTest/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/test/StoreTest/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/TestPassingParameter/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/test/TestPassingParameter/TestPassingParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject/src/hust/soict/ict/test/TrackTest/TrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/globalict/test/TrackTest/TrackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,41 +84,45 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/OOP_Lab&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "/home/beyond/Projects/OOP_Lab/AimsProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\OOP_Lab\AimsProject" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="hust.soict.ict.aims.media" />
+      <recent name="hust.soict.globalict.aims" />
+      <recent name="hust.soict.globalict.aims.screen" />
+      <recent name="hust.soict.ict" />
+      <recent name="hust.soict.ict.aims.screen" />
+      <recent name="hust.soict" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Aims">
     <configuration name="Aims" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hust.soict.ict.aims.aims.Aims" />
+      <option name="MAIN_CLASS_NAME" value="hust.soict.globalict.aims.aims.Aims" />
       <module name="AimsProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hust.soict.ict.aims.aims.*" />
+          <option name="PATTERN" value="hust.soict.globalict.aims.aims.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="CartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hust.soict.ict.test.CartTest.CartTest" />
+      <option name="MAIN_CLASS_NAME" value="hust.soict.globalict.test.CartTest.CartTest" />
       <module name="AimsProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hust.soict.ict.test.CartTest.*" />
+          <option name="PATTERN" value="hust.soict.globalict.test.CartTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +144,11 @@
       </method>
     </configuration>
     <configuration name="PolyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hust.soict.ict.test.PolyTest.PolyTest" />
+      <option name="MAIN_CLASS_NAME" value="hust.soict.globalict.test.PolyTest.PolyTest" />
       <module name="AimsProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hust.soict.ict.test.PolyTest.*" />
+          <option name="PATTERN" value="hust.soict.globalict.test.PolyTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +157,11 @@
       </method>
     </configuration>
     <configuration name="StoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hust.soict.ict.test.StoreTest.StoreTest" />
+      <option name="MAIN_CLASS_NAME" value="hust.soict.globalict.test.StoreTest.StoreTest" />
       <module name="AimsProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hust.soict.ict.test.StoreTest.*" />
+          <option name="PATTERN" value="hust.soict.globalict.test.StoreTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +170,11 @@
       </method>
     </configuration>
     <configuration name="TrackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hust.soict.ict.test.TrackTest.TrackTest" />
+      <option name="MAIN_CLASS_NAME" value="hust.soict.globalict.test.TrackTest.TrackTest" />
       <module name="AimsProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hust.soict.ict.test.TrackTest.*" />
+          <option name="PATTERN" value="hust.soict.globalict.test.TrackTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,6 +215,9 @@
       <workItem from="1684141238344" duration="64000" />
       <workItem from="1686366081132" duration="2037000" />
       <workItem from="1686448009189" duration="754000" />
+      <workItem from="1687869090794" duration="539000" />
+      <workItem from="1687869643876" duration="128000" />
+      <workItem from="1687940943760" duration="3151000" />
     </task>
     <task id="LOCAL-00001" summary="Lab01 Assignments">
       <created>1681455869613</created>

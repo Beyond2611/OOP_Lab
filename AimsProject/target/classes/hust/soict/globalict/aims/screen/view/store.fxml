@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" prefHeight="768.0" prefWidth="1024.0"
+            xmlns="http://javafx.com/javafx/20.0.1">
+    <top>
+        <VBox BorderPane.alignment="CENTER">
+            <children>
+                <MenuBar>
+                    <menus>
+                        <Menu mnemonicParsing="false" text="Options">
+                            <items>
+                                <Menu mnemonicParsing="false" text=" Update Store">
+                                    <items>
+                                        <MenuItem mnemonicParsing="false" onAction="#showAddBook" text="Add Book"/>
+                                        <MenuItem mnemonicParsing="false" onAction="#showAddCD" text="Add CD"/>
+                                        <MenuItem mnemonicParsing="false" onAction="#showAddDVD" text="Add DVD"/>
+                                    </items>
+                                </Menu>
+                                <MenuItem mnemonicParsing="false" onAction="#showStore" text="View Store"/>
+                                <MenuItem mnemonicParsing="false" onAction="#showCart" text="View Cart"/>
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+                <BorderPane>
+                    <left>
+                        <Label text="AIMS" textFill="AQUA" BorderPane.alignment="CENTER">
+                            <font>
+                                <Font size="50.0"/>
+                            </font>
+                        </Label>
+                    </left>
+                    <right>
+                        <Button mnemonicParsing="false" onAction="#showCart" text="View Cart"
+                                BorderPane.alignment="CENTER">
+                            <font>
+                                <Font size="24.0"/>
+                            </font>
+                            <BorderPane.margin>
+                                <Insets right="20.0"/>
+                            </BorderPane.margin>
+                        </Button>
+                    </right>
+                </BorderPane>
+            </children>
+        </VBox>
+    </top>
+    <center>
+        <ScrollPane fitToWidth="true" maxHeight="768.0" BorderPane.alignment="CENTER">
+            <content>
+                <GridPane fx:id="grid" alignment="CENTER" hgap="10.0" prefHeight="0.0" vgap="10.0">
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                    </rowConstraints>
+                </GridPane>
+            </content>
+        </ScrollPane>
+    </center>
+</BorderPane>
